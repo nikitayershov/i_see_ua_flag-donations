@@ -103,35 +103,35 @@ body{
   }
   .contacts {
     width: 100%;
-    display: flex;
-    justify-content: center;
 
-    .telegram {
+    .email {
       width: 100%;
       margin-right: 10px;
-      background-image: linear-gradient(180deg, #00aefa, #0983c5);
+      background-image: linear-gradient(180deg, #023b59, #147ab2);
       height: 45px;
       display: flex;
       align-items: center;
       justify-content: center;
+      border-top-right-radius: 20px;
       border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
+      margin-bottom: 15px;
+      text-decoration: none;
     }
 
 
-    .viber {
+    .instagram {
       width: 100%;
       height: 45px;
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: linear-gradient(180deg, #8760fd, #4c389d);
-      border-top-right-radius: 20px;
+      background-image: linear-gradient(180deg, #e1be04, #5e5004);
       border-bottom-right-radius: 20px;
-
-    }
-    img{
-      height: 70%;
+      border-bottom-left-radius: 20px;
+      text-decoration: none;
+      img{
+        height: 70%;
+      }
     }
 
 
