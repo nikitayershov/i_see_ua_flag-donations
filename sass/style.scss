@@ -1,19 +1,44 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica'),
+  url('/fonts/Helvetica.woff2') format('woff2'),
+  url('/fonts/Helvetica.woff') format('woff'),
+  url('/fonts/Helvetica.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica Bold'), local('Helvetica-Bold'),
+  url('/fonts/Helvetica-Bold.woff2') format('woff2'),
+  url('/fonts/Helvetica-Bold.woff') format('woff'),
+  url('/fonts/Helvetica-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 
 }
+body{
+  background-color: #000;
 
+}
 .title{
   font-size: 24px;
-  font-weight: 700;
   margin-bottom: 15px;
+
 }
 .button{
   display: block;
@@ -21,7 +46,7 @@
   background-color: rgb(255, 255, 255);
   color: rgb(51, 51, 51);
   width: 100%;
-  line-height: 35px;
+  line-height: 45px;
   text-decoration: none;
   cursor: pointer;
   margin-bottom: 15px;
@@ -48,11 +73,11 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
-    h2{
-      font-size: 24px;
+    .iseeua-logo{
+      height: 35px;
     }
     .header__logo {
-      height: 40px
+      height: 40px;
     }
   }
   .title-img{
@@ -63,6 +88,7 @@
   }
   .text{
     margin-bottom: 15px;
+
 
   }
   .swiper{
